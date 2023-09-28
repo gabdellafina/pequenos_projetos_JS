@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: linear-gradient(315deg, #D083FF 0%, #7E00CB 35.07%, #3B0060 80.71%) no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    width: 901px;
+    height: 437px;
+    border-radius: 15px;
+    background: #E4B7FF;
+    box-shadow: 10px 10px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio div{
+    width: 251px;
+    height: 259px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(150deg, rgba(208, 131, 255, 1), rgba(208, 131, 255, 0));
+    color: #fff;
+    border-radius: 15px;
+}
+
+.relogio div:first-child{
+    margin: 89px 30px 89px 30px;
+}
+
+.relogio div:nth-child(2){
+    margin: 89px 30px 89px 30px;
+}
+
+.relogio div:last-child{
+    margin: 89px 30px 89px 30px;
+}
+
+.relogio span{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.relogio span.tempo{
+    font-size: 30px;
+    font-weight: normal;
+}
+
